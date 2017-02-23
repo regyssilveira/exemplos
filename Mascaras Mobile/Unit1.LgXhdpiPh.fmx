@@ -1,0 +1,9 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited edtCNPJ: TEdit
+    Position.X = 45.000000000000000000
+    Position.Y = 110.000000000000000000
+  end
+end

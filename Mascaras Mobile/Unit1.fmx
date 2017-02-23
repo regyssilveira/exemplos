@@ -1,0 +1,62 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 640
+  ClientWidth = 391
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object edtCNPJ: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    KeyboardType = NumberPad
+    Position.X = 55.000000000000000000
+    Position.Y = 130.000000000000000000
+    Size.Width = 276.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    OnTyping = edtCNPJTyping
+    object Label1: TLabel
+      Position.X = -5.000000000000000000
+      Position.Y = -26.000000000000000000
+      Text = 'CNPJ'
+    end
+  end
+  object edtCPF: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    KeyboardType = NumberPad
+    Position.X = 55.000000000000000000
+    Position.Y = 210.000000000000000000
+    Size.Width = 276.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    OnTyping = edtCPFTyping
+    object Label2: TLabel
+      Position.X = -5.000000000000000000
+      Position.Y = -26.000000000000000000
+      Text = 'CPF'
+    end
+  end
+  object edtMaskPesonalizada: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    KeyboardType = NumberPad
+    Position.X = 55.000000000000000000
+    Position.Y = 295.000000000000000000
+    Size.Width = 276.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    OnTyping = edtMaskPesonalizadaTyping
+    object Label3: TLabel
+      Position.X = -5.000000000000000000
+      Position.Y = -26.000000000000000000
+      Size.Width = 161.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Mascara Pr'#243'pria'
+    end
+  end
+end
